@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Joke">
+        <service
+            android:name=".DelayedMessageService"
+            android:exported="false"></service>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
